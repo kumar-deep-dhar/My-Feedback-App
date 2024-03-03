@@ -16,8 +16,7 @@ const RateUsCard = () => {
   const { userData } = useContext(FeedbackContext);
 
   const handleSubmit = () => {
-    // Implement your rating and feedback submission logic here (e.g., API call)
-    console.log("Submitted rating:", rating, "Feedback:", feedback); // Log data for debugging
+    console.log("Submitted rating:", rating, "Feedback:", feedback); 
 
     // Reset form fields after submission
     setRating(null);
