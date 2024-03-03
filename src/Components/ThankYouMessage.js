@@ -16,7 +16,6 @@ const ThankYouMessage = ({ open, onClose }) => {
     setIsSubmitting(true);
     setTimeout(() => {
       setIsSubmitting(false);
-      // Invoke the onClose function passed as a prop
       onClose();
     }, 2000);
   };
